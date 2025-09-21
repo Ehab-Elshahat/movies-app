@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+🎬 Movies App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application for browsing movies, viewing details, watching trailers, and saving your favorite movies with a modern and responsive design.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+📌 Browse Movies with posters and basic details.
 
-### `npm start`
+🔍 Search Movies using TMDB API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+❤️ Add/Remove Favorites with data stored in Local Storage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎥 Movie Details Page – title, year, genre, runtime, rating, and description.
 
-### `npm test`
+⭐ Movie Rating displayed with stars.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌓 Dark/Light Mode with dynamic theme colors.
 
-### `npm run build`
+📱 Fully Responsive – works on mobile, tablet, and desktop.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+⚡ Lazy Loading Images for better performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React.js ⚛️ – Frontend framework.
 
-### `npm run eject`
+Redux Toolkit 🗂 – State management (favorites).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Material UI (MUI) 🎨 – Modern UI components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+TMDB API 🎥 – Movie data source.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Local Storage 💾 – Persistent favorites.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📂 Project Structure
+MoviesApp/
+│── src/
+│   ├── components/        # UI components
+│   │   ├── MovieCard.js
+│   │   ├── MoviesList.js
+│   │   ├── Navbar.js
+│   │   └── Loader.js
+│   ├── pages/             # Main pages
+│   │   ├── HomePage.js
+│   │   ├── MovieDetails.js
+│   │   └── About.js
+│   ├── slice/             # Redux slices
+│   │   └── favoritesSlice.js
+│   ├── App.js
+│   ├── index.js
+│   └── theme.js           # Dark/Light theme settings
+│
+└── README.md
 
-## Learn More
+⚙️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git clone https://github.com/username/movies-app.git
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navigate to the project folder:
 
-### Analyzing the Bundle Size
+cd movies-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Run the app:
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📸 Screenshots
 
-### `npm run build` fails to minify
+![Home Page](public/MoviesApp.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+👨‍💻 Developer
+
+Developed by Ehab Elshahat ✨
+🔗 Portfolio
