@@ -1,3 +1,5 @@
+<!-- @format -->
+
 🎬 Movies App
 
 A web application for browsing movies, viewing details, watching trailers, and saving your favorite movies with a modern and responsive design.
@@ -35,20 +37,20 @@ Local Storage 💾 – Persistent favorites.
 📂 Project Structure
 MoviesApp/
 │── src/
-│   ├── components/        # UI components
-│   │   ├── MovieCard.js
-│   │   ├── MoviesList.js
-│   │   ├── Navbar.js
-│   │   └── Loader.js
-│   ├── pages/             # Main pages
-│   │   ├── HomePage.js
-│   │   ├── MovieDetails.js
-│   │   └── About.js
-│   ├── slice/             # Redux slices
-│   │   └── favoritesSlice.js
-│   ├── App.js
-│   ├── index.js
-│   └── theme.js           # Dark/Light theme settings
+│ ├── components/ # UI components
+│ │ ├── MovieCard.js
+│ │ ├── MoviesList.js
+│ │ ├── Navbar.js
+│ │ └── Loader.js
+│ ├── pages/ # Main pages
+│ │ ├── HomePage.js
+│ │ ├── MovieDetails.js
+│ │ └── About.js
+│ ├── slice/ # Redux slices
+│ │ └── favoritesSlice.js
+│ ├── App.js
+│ ├── index.js
+│ └── theme.js # Dark/Light theme settings
 │
 └── README.md
 
@@ -56,18 +58,15 @@ MoviesApp/
 
 Clone the repository:
 
-git clone https://github.com/username/movies-app.git
-
+git clone https://github.com/Ehab-Elshahat/movies-app.git
 
 Navigate to the project folder:
 
 cd movies-app
 
-
 Install dependencies:
 
 npm install
-
 
 Run the app:
 
@@ -77,9 +76,6 @@ npm start
 
 ![Home Page](public/MoviesApp.png)
 
-
-
 👨‍💻 Developer
 
-Developed by Ehab Elshahat ✨
-🔗 Portfolio
+Developed by Ehab Elshahat ✨ 🔗 Portfolio https://ehab-elshahat.github.io/h2portfolio/
